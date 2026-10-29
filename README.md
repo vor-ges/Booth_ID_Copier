@@ -1,4 +1,3 @@
-
 # Booth ID Copier
 
 A Chrome extension for copying BOOTH product IDs from product links.
