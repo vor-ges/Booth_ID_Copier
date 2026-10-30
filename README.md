@@ -11,8 +11,8 @@ Instead of opening a product page and manually extracting its ID, you can use th
 ## Overview
 
 - **Platform:** Chromium-based browsers supporting Manifest V3
-- **Version:** 1.2
-- **Context Menu:** `BOOTHの商品IDをコピー`
+- **Version:** 1.3
+- **Context Menu:** `Copy Booth ID`
 
 ## Features
 
@@ -31,7 +31,7 @@ Instead of opening a product page and manually extracting its ID, you can use th
 1. Install the extension in your browser.
 2. Open a page containing a link to a BOOTH product.
 3. Right-click the product link.
-4. Select `BOOTHの商品IDをコピー`.
+4. Select `Copy Booth ID`.
 5. Paste the copied ID wherever you need it.
 
 ## Important notes
