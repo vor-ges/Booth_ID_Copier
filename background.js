@@ -1,7 +1,7 @@
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: "copyBoothId",
-    title: "BOOTHの商品IDをコピー",
+    title: "Copy Booth ID",
     contexts: ["link"]
   });
 });
@@ -15,12 +15,12 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
     if (match && tab?.id) {
       const itemId = match[1];
 
-      // content scriptを実行
+      // execute content script
       chrome.scripting.executeScript({
         target: { tabId: tab.id },
         func: (id) => {
           navigator.clipboard.writeText(id)
-            .catch(() => alert("コピー失敗"));
+            .catch(() => alert("Copy failed"));
         },
         args: [itemId]
       });
