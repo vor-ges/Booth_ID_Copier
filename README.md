@@ -47,7 +47,8 @@ This project was created to reduce the steps needed to retrieve BOOTH product ID
 
 ## Author
 
-vor_ges
+- vor_ges
+- nur_ieren
 
 ## Licence
 
